@@ -175,7 +175,7 @@ export default function PostLayout({
                 </div>
                 {questions && questions}
             </article>
-            <aside className="lg:sticky top-10 flex-grow lg:max-w-[625px] my-10 lg:my-0 lg:mt-10 pb-20 overflow-y-auto lg:h-[calc(100vh-7.5rem)]">
+            <aside className="box-content lg:sticky top-10 flex-grow lg:max-w-[575px] my-10 lg:my-0 lg:mt-10 pb-20 overflow-y-auto lg:h-[calc(100vh-7.5rem)]">
                 <div className="grid divide-y divide-gray-accent-light dark:divide-gray-accent-dark divide-dashed">
                     {sidebar && sidebar}
                     {view === 'Article' && !breakpoints.md && toc?.length > 1 && (
